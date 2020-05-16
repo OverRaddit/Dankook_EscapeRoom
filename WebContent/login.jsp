@@ -9,10 +9,12 @@
 <title>JSP</title>
 </head>
 <body>
-	<nav class="navbar navbar-inverse">
-	
-		<div class="navbar-header">
-		
+	<%-- default/inverse 기본색,반전색 --%>
+	<%-- fixed-top/bottom 메뉴바 상단/하단 고정! --%>
+	<nav class="navbar navbar-inverse navbar-fixed-top"> 
+		<%-- nav bar에 들어가는 선언부인듯? --%>
+		<div class="navbar-header"> 
+			<%--data-target 버튼 id를 입력해 어떤 버튼에 대한 기술인지 적는다.--%>
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 				aria-expanded="false">
@@ -21,14 +23,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			
+			<%--navbar-brand는 좌측 상단에 들어간다. --%>
 			<a class="navbar-brand" href="main.jsp">JSP 게시판 웹 사이트</a>
 		</div>
+		
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<%--ul을 선언하면 좌측상단에서 부터 왼쪽으로 버튼이 하나씩 생긴다 --%>
 			<ul class="nav navbar-nav">
 				<li><a href="main.jsp">메인</a></li>
 				<li><a href="bbs.jsp">게시판</a></li>
 			</ul>
+			<%--navbar-right를 주면 우로 밀착한다! --%>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle"
