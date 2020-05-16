@@ -78,9 +78,30 @@
 		  </table>
 		  <p class="text-danger">※ 1인의 경우 2인 기준 요금으로 적용됩니다. ( Quest에 따라 1인이 진행할 수 없는 곳도 있습니다.)</p>
 	</ol>
-</div>
+</div><br><br>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+<div class="container">
+	<h1><p class="bg-primary text-left">입장제한 및 환불불가 안내</p></h1>
+	<hr>
+	<ol>
+		<li><p class="bg-info">지각 및 No Show</p></li>
+			<p>Quest는 시간대 별 예약으로 진행되어, 시작 최소 10분 전에 도착하는 것이 중요합니다.<br>
+			No show(불참)의 경우 환불은 되지 않습니다.</p>
+		<li><p class="bg-info">미성년자</p></li>
+			<p>Quest 중 연령 제한이 있는 경우가 있으니 예약시 반드시 확인해 주세요.<br>
+			19세이상 게임의 경우 신분증 제시를 요청할 수 있습니다.<br>
+			Quest별 참여 가능 연령을 확인하시려면, 여기(퀘스트 소개로 연결)를 눌러주세요.</p>
+		<li><p class="bg-info">과도한 음주자</p></li>
+			<p>쾌적한 환경을 위해 혈중 알코올 농도 0.1% 이상인 경우 입장이 제한 될 수 있습니다. (게임 전 음주 측정 요구 가능)</p>
+		<li><p class="bg-info">폐쇄공포증 및 심장 질환자, 임산부</p></li>
+			<p>Quest를 수행하기 위한 공간은 해당 테마에 맞춰 최대한 리얼리티를 살리도록 설계 되어, 게임시간 동안 경우에 따라<br>
+공간이 폐쇄되어 갇히거나 참여자의 신체가 구속될 수 있으므로 관련된 질병이나 신체장애가 있는 분들은 참여가 어렵습니다.</p>
+		<li><p class="bg-info">기밀누설</p></li>
+			<p>법적인 책임 이전에 아직 Quest를 경험해 보지 못한 분들을 배려하여,<br>
+Quest 안에서 경험한 퀴즈나 퍼즐 등 세부적인 이야기는 팀원들끼리만 공유 부탁드려요.</p>
+	</ol>
+</div><br><br>
+
+
 </body>
 </html>

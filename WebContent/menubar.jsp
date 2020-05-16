@@ -31,11 +31,14 @@
 	
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#"><span class="glyphicon glyphicon-user"></span> 회원가입 </a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 로그인 </a></li>
+				<li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> 로그인 </a></li>
 			</ul>
 			
 		</div>
 	</nav>
+	<img class="img-responsive" src="img/slide1_kr.jpg" alt="Chania" width="1200" height="800" align="center">
+	
+	
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>

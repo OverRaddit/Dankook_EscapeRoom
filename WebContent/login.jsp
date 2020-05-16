@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <title>JSP</title>
 </head>
-<body>
+<body style="background-color:black">
 	<%-- default/inverse 기본색,반전색 --%>
 	<%-- fixed-top/bottom 메뉴바 상단/하단 고정! --%>
 	<nav class="navbar navbar-inverse navbar-fixed-top"> 
@@ -46,7 +46,7 @@
 				</li>
 			</ul>
 		</div>
-	</nav>
+	</nav><br><br><br><br><br><br><br><br>
 	<div class="container">
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
